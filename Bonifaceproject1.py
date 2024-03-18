@@ -8,7 +8,7 @@ def poser_question(question, choix):
     
     while True:
         try:
-            reponse_utilisateur = int(input("Votre réponse (entrez le numéro correspondant) : "))
+            reponse_utilisateur = int(input("Votre réponse (entrez le numéro correspondsant) : "))
             if 1 <= reponse_utilisateur <= len(choix):
                 return reponse_utilisateur
             else:
